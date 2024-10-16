@@ -1,4 +1,4 @@
-# Ex-7 - Implement DES Encryption and Decryption
+# EX-7-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
 
 ## Aim:
   To use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption.
@@ -10,7 +10,7 @@
   4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 
 ## PROGRAM: 
-```c
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -25,7 +25,7 @@ void xor_encrypt_decrypt(char *input, char *key) {
 }
 
 int main() {
-    char url[] = "https://www.amazon.com/";
+    char url[] = "https://www.flipkart.com/";
     char key[] = "secretkey"; // Simple key for XOR encryption
 
     printf("Original URL: %s\n", url);
@@ -42,10 +42,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-
-![image](https://github.com/user-attachments/assets/dd88560c-e3b2-403e-a583-b19065431715)
+![Screenshot 2024-10-09 150756](https://github.com/user-attachments/assets/99e1f0f3-d55f-4dad-902a-e3691390479c)
 
 
 ## RESULT: 
-
-Thus , to use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption is done successfully.
+Thus , to use Advanced Encryption Standard (AES) Algorithm for a practical application like URL Encryption is done successfully.
